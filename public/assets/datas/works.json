@@ -1,0 +1,23 @@
+{
+  "works": [
+    {
+      "title": "Radio Journalist",
+      "location": "Groupe 1981 (Orléans, France)",
+      "date": "Jul.2015 - Jul.2016",
+      "descriptions": [
+        "Writing, producing and hosting news flashes",
+        "Conducting Interviews"
+      ]
+    },
+    {
+      "title": "Radio host and voice-over",
+      "location": "Goom Radio - Chérie FM (Paris, France)",
+      "date": "Dec.2011 - Jul.2015",
+      "descriptions": [
+        "Hosting morning shows",
+        "Writing cinema reviews",
+        "Dubbing reports"
+      ]
+    }
+  ]
+}

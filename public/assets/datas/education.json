@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "where": "Interface3 - Brussels",
+      "when": "Training Web Application Developer (Mar.2019 - Jul.2020)",
+      "what": [
+        "1435 hours of lessons",
+        "Develop web application",
+        "Preparation to the Certification 'Programming in C#'",
+        "Preparation to the Certification 'Europass Métier Web Application Developer'"
+      ]
+    },
+    {
+      "where": "Studec - Paris",
+      "when": "Graduated Class 2011 - Bachelor's degree in radio hosting and journalism",
+      "what": [
+        "Writing and co-hosting mornings, after-schools, and night-shows",
+        "Producing and directing radio shows"
+      ]
+    }
+  ]
+}
