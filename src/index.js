@@ -5,7 +5,7 @@ const newsec2 = $('#work');
 
 
 // $('.link-to-json').click(() => {
-const requestEducation = fetch('../assets/datas/education.json')
+const requestEducation = fetch('http://www.if3projets.net/wad19/mathilde/assets/datas/education.json')
   .then((response) => response.json())
   .then((data) => {
     $('#about').after(newsec);
@@ -17,7 +17,7 @@ const requestEducation = fetch('../assets/datas/education.json')
     });
   });
 
-const requestWork = fetch('../assets/datas/works.json')
+const requestWork = fetch('http://www.if3projets.net/wad19/mathilde/assets/datas/works.json')
   .then((response2) => response2.json())
   .then((data2) => {
     newsec.after(newsec2);
