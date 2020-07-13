@@ -3,6 +3,7 @@ import $ from 'jquery';
 const newsec = $('#education');
 const newsec2 = $('#work');
 
+/*$('a.project-title').click(function(event) { event.preventDefault(); });*/
 
 // $('.link-to-json').click(() => {
 const requestEducation = fetch('http://www.if3projets.net/wad19/mathilde/assets/datas/education.json')

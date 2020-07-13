@@ -1,6 +1,17 @@
 {
   "works": [
     {
+      "title": "Junior Web Developer (internship)",
+      "location": "MFM Digital (Brussels, Belgium)",
+      "date": "May.2020 - Jun.2020",
+      "descriptions": [
+        "Participating to client meetings",
+        "Using WordPress dashboard and configuring themes and plugins",
+        "Integrating content with WordPress and HTML/CSS",
+        "Coding in PHP and Javascript"
+      ]
+    },
+    {
       "title": "Radio Journalist",
       "location": "Groupe 1981 (Orléans, France)",
       "date": "Jul.2015 - Jul.2016",
