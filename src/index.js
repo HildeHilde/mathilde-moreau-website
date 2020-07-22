@@ -11,9 +11,9 @@ const requestEducation = fetch('http://www.if3projets.net/wad19/mathilde/assets/
   .then((data) => {
     $('#about').after(newsec);
     $.each(data.education, (i, study) => {
-      $('.package').append(`<h3>${study.where}</h3> <p class="post-title">${study.when}</p><ul class="item"></ul>`);
+      $('.package').append(`<h3>${study.where}</h3> <p class="post-title">${study.when}</p>`);
       $.each(study.what, (item) => {
-        $('.item').append(`<li class="el">${study.what[item]}</li>`);
+        $('.package').append(`<ul class="item"><li class="el">${study.what[item]}</li></ul>`);
       });
     });
   });
@@ -23,9 +23,9 @@ const requestWork = fetch('http://www.if3projets.net/wad19/mathilde/assets/datas
   .then((data2) => {
     newsec.after(newsec2);
     $.each(data2.works, (i, work) => {
-      $('.package2').append(`<h3>${work.title}</h3> <p class="post-title">${work.location} | ${work.date}</p><ul class="item2"></ul>`);
+      $('.package2').append(`<h3>${work.title}</h3> <p class="post-title">${work.location} | ${work.date}</p>`);
       $.each(work.descriptions, (element) => {
-        $('.item2').append(`<li class="el">${work.descriptions[element]}</li>`);
+        $('.package2').append(`<ul class="item2"><li class="el">${work.descriptions[element]}</li></ul>`);
       });
     });
   });
